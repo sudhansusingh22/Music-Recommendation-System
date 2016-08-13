@@ -1,4 +1,11 @@
 Music Listening Dataset
+
+Recommend new musical artists to user based on their listening history. 
+
+The model was trained with Altering Least Square Algorithm(ALS) for collaborative filtering, on Audioscrobbler data of users-artists and the play counts. 
+
+The model predicted top 5 artists for a particular user. The model evaluation was based on the overlapping of the actual artists list with the predicted artists list.
+
 Audioscrobbler.com
 6 May 2005
 --------------------------------
